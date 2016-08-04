@@ -1,28 +1,54 @@
 {
-	"color_scheme": "Packages/Lucario Color Scheme/Lucario.tmTheme",
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"node_modules/**",
+		"bower_components/**"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/brogrammer (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"detect_indentation": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp/cache",
+		"__pycache__"
+	],
 	"font_options":
 	[
-		"gray_antialias",
+		"gray_antialias"
 	],
-	"font_size": 12,
+	"font_size": 13,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Asphalt.sublime-theme",
-
-	// "bold_folder_labels": true,
-	"highlight_line": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"rulers":
 	[
-	    79
+		79
 	],
 	"scroll_past_end": true,
 	"tab_size": 4,
+	"theme": "Brogrammer.sublime-theme",
+	"Seti_alt_tree_row": true,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"default_encoding": "UTF-8",
-	"detect_indentation": true,
+	"trim_trailing_white_space_on_save": true
 }
