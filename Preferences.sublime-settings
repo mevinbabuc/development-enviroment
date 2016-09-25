@@ -27,13 +27,15 @@
 		".hg",
 		"CVS",
 		"tmp/cache",
-		"__pycache__"
+		"__pycache__",
+		"node_modules/**",
+		"bower_components/**"
 	],
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 13,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -48,7 +50,6 @@
 	"scroll_past_end": true,
 	"tab_size": 4,
 	"theme": "Brogrammer.sublime-theme",
-	"Seti_alt_tree_row": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
