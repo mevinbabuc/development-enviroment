@@ -106,6 +106,8 @@ alias ls='ls -GFh'
 
 export PATH="//anaconda/bin:$PATH"
 
+# default pip alias
 alias pip="noglob pip3.5"
 
+# stop annoying zsh autocorrect
 unsetopt correct_all
