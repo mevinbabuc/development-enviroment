@@ -103,3 +103,9 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+
+export PATH="//anaconda/bin:$PATH"
+
+alias pip="noglob pip3.5"
+
+unsetopt correct_all
